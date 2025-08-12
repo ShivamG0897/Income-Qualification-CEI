@@ -12,8 +12,19 @@ This implementation uses:
 
 ---
 
-## 📂 Dataset
-**Note:** Due to company policy, datasets cannot be shared publicly.
+## 📂 Data Source
+The dataset used in this project originates from the **Inter-American Development Bank (IDB)** and is publicly available through the **Kaggle competition**:
+
+**Costa Rican Household Poverty Level Prediction**  
+[Kaggle Dataset Link](https://www.kaggle.com/competitions/costa-rican-household-poverty-prediction)
+
+The dataset includes:
+- **train.csv** – 9,557 rows, 143 features including the `Target` label.
+- **test.csv** – 23,856 rows, same features without the `Target` label.
+- Features describe household attributes such as construction materials, access to utilities, education levels, and asset ownership.
+
+**Note:** In this repository, the original dataset files are **not** included due to company policy restrictions.
+
 
 ### Key Details:
 - **train.csv** – training dataset with target variable (`Target`)
@@ -51,7 +62,6 @@ Many social programs struggle to correctly identify the poorest segment of the p
    - Saving notebook outputs as `.py` or `.html`.
 
 ---
-
 
 # Install dependencies
 pip install -r requirements.txt
